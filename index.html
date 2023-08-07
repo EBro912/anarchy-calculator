@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Splatoon Anarchy Calculator</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container-sm">
+            <h1>Splatoon Anarchy Points Calculator</h1>
+            <label for="rank">Current Rank</label>
+            <select name="rank" id="rank" class="form-select">
+                <option value="0" selected>C-</option>
+                <option value="1">C</option>
+                <option value="2">C+</option>
+                <option value="3">B-</option>
+                <option value="4">B</option>
+                <option value="5">B+</option>
+                <option value="6">A-</option>
+                <option value="7">A</option>
+                <option value="8">A+</option>
+                <option value="9">S</option>
+                <option value="10">S+</option>
+            </select>
+
+            <label for="wins">Number of Wins</label>
+            <select name="wins" id="wins" class="form-select">
+                <option value="0" selected>0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+
+            <label for="gold" class="form-label">Gold Medals</label>
+            <input type="number" class="form-control" id="gold">
+
+            <label for="silver" class="form-label">Silver Medals</label>
+            <input type="number" class="form-control" id="silver">
+
+            <div class="calculate-container">
+                <button type="button" class="btn btn-secondary btn-lg" id="calculate">Calculate</button>
+            </div>
+
+            <h2 id="entry">Entry Cost: 0p</h2>
+            <h2 id="earned">Points Earned: ???p</h2>
+            <h2 id="result">Result: ???p</h2>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="index.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+    </body>
+</html>
