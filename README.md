@@ -1,7 +1,7 @@
 # anarchy-calculator
 ![anarchy symbol](./favicon/android-chrome-192x192.png)
 
- A simple website that features a point calculator for Splatoon's Anarchy mode. Written with HTML, JS/jQuery, and some CSS. You can access the calculator [Here](https://ebro912.github.io/anarchy-calculator/)
+ A simple website that features a point calculator for Splatoon's Anarchy mode. Written with HTML, JS/jQuery, and some CSS. You can access the calculator [here](https://ebro912.github.io/anarchy-calculator/).
 
  ## Information
  To use the calculator, select your current rank, how many wins you earned, and enter the number of gold and silver medals you earned. After clicking the "Calculate" button, your calculated gross earned points as well as the resulting actual point gain or loss will be displayed at the bottom.
